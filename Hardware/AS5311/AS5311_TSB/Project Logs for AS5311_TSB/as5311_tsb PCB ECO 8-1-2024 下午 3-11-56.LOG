@@ -1,0 +1,27 @@
+Change Component Footprint: Designator=U1 Old Footprint=AMS-TSSOP-20-6500X4400DE_A_L New Footprint=AMS-TSSOP-20-6500X4400DE_A_L
+Added Component: Designator=FPC?(CONN-SMD-12P_AFC11-S12ICA-00)
+Add component (AddParameter): Name = "Add into BOM"; Value = "yes"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Channel ID"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Contact Type"; Value = "单侧触点/垂直"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Convert to PCB"; Value = "yes"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Datasheet"; Value = "https://atta.szlcsc.com/upload/public/pdf/source/20191211/C466537_F6F2472ADACFFA77E875AFE9DAB8E0AD.pdf"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Device"; Value = "AFC11-S12ICA-00"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "FFC, FCB Thickness"; Value = "0.3mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Group ID"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Height Above Board"; Value = "4.4mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "JLCPCB Part Class"; Value = "扩展库"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "LCSC Part Name"; Value = "间距:0.5mm P数:12P 抽屉式 单侧触点/垂直 正脚"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Locking Feature"; Value = "抽屉式"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "JS(钜硕电子)"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Part"; Value = "AFC11-S12ICA-00"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mounting Type"; Value = "立贴"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Name"; Value = "AFC11-S12ICA-00"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Number of Contacts"; Value = "12P"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Pitch"; Value = "0.5mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Reuse Block"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier"; Value = "LCSC"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Footprint"; Value = "SMD,P=0.5mm"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part"; Value = "C262499"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Symbol"; Value = "AFC11-S12ICA-00"; VariantName = "[No Variations]"
+Added Member To Class: ClassName=as5311_tsb Member=Component FPC? AFC11-S12ICA-00
+Added Room: Name=as5311_tsb

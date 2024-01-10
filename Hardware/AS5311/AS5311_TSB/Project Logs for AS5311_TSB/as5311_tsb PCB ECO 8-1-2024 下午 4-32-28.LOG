@@ -1,0 +1,4 @@
+Removed Pin From Net: NetName=GND Pin=C2-1
+Removed Member From Class: ClassName=as5311_tsb Member=C2
+Added Pin To Net: NetName=NetC?_2 Pin=U2-5
+Change Net Name : Old Net Name=NetC?_2 New Net Name=3.3V

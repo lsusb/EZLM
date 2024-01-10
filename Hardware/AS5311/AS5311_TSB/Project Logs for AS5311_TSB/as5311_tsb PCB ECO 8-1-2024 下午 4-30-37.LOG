@@ -1,0 +1,44 @@
+Added Component: Designator=C?(0603_C)
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "供应商链接"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "http://www.szlcsc.com/product/details_15331.html"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Notepad"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "0603"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier"; Value = "LC"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "SuppliersPartNumber"; Value = "C14663"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=GND Pin=C?-1
+Added Pin To Net: NetName=5V Pin=FPC1-1
+Added Pin To Net: NetName=GND Pin=FPC1-2
+Added Pin To Net: NetName=GND Pin=U1-8
+Added Pin To Net: NetName=GND Pin=U1-9
+Added Pin To Net: NetName=A Pin=FPC1-3
+Added Pin To Net: NetName=A Pin=U1-4
+Added Net: Name=A
+Added Pin To Net: NetName=B Pin=FPC1-4
+Added Pin To Net: NetName=B Pin=U1-5
+Added Net: Name=B
+Added Pin To Net: NetName=CLK Pin=FPC1-9
+Added Pin To Net: NetName=CLK Pin=U1-13
+Added Net: Name=CLK
+Added Pin To Net: NetName=CSN Pin=FPC1-11
+Added Pin To Net: NetName=CSN Pin=U1-14
+Added Net: Name=CSN
+Added Pin To Net: NetName=DO Pin=FPC1-10
+Added Pin To Net: NetName=DO Pin=U1-12
+Added Net: Name=DO
+Added Pin To Net: NetName=MagDECn Pin=FPC1-8
+Added Pin To Net: NetName=MagDECn Pin=U1-3
+Added Net: Name=MagDECn
+Added Pin To Net: NetName=MagINCn Pin=FPC1-7
+Added Pin To Net: NetName=MagINCn Pin=U1-2
+Added Net: Name=MagINCn
+Added Pin To Net: NetName=NetC?_2 Pin=C?-2
+Added Pin To Net: NetName=NetC?_2 Pin=U1-18
+Added Pin To Net: NetName=NetC?_2 Pin=U1-19
+Added Net: Name=NetC?_2
+Added Pin To Net: NetName=PWM Pin=FPC1-6
+Added Pin To Net: NetName=PWM Pin=U1-15
+Added Net: Name=PWM
+Added Pin To Net: NetName=Z Pin=FPC1-5
+Added Pin To Net: NetName=Z Pin=U1-7
+Added Net: Name=Z
+Added Member To Class: ClassName=as5311_tsb Member=Component C? 100nF (104) 10% 50V

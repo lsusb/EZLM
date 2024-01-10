@@ -1,0 +1,18 @@
+Added Component: Designator=U1(AMS-TSSOP-20-6500X4400DE_A_L)
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "Manufacturer URL"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "www.ams.com"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2Description"; Value = "Datasheet"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink2URL"; Value = "http://www.ams.com/eng/content/download/17954/325059/15366"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "DatasheetVersion"; Value = "Rev. 1.12"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Features"; Value = "high resolution, linear movement measurement using multi-pole magnetic strips, circular off-axis movement measurement using multi-pole magnetic rings"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "AMS"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Part Number"; Value = "AS5311-ATST"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Mounting Technology"; Value = "Surface Mount"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Output"; Value = "incremental A & B with index; absolute serial + PWM output"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageDescription"; Value = "20-Pin Thin Shrink Small Outline Package, 6.5 x 4.4 mm Body, 0.65 mm Pitch"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageReference"; Value = "TSSOP-20"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PackageVersion"; Value = "Rev. 1.9, 11/2012"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "PartNumber"; Value = "AS5311-ATST"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Resolution"; Value = "0.488 ?¦Ìm absolute 1.95 ?¦Ìm incremental"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supply Voltage (V)"; Value = "3.3 or 5.0"; VariantName = "[No Variations]"
+Added Member To Class: ClassName=as5311_tsb Member=Component U1 AS5311-ATST

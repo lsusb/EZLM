@@ -1,0 +1,42 @@
+Change Component Designator: OldDesignator=FPC? NewDesignator=FPC1
+Add Component: Footprint Not Found 0603_C
+Add Component: Footprint Not Found 0603_C
+Add Component: Footprint Not Found 0603_C
+Added Component: Designator=U2(SOT-23-5_L3.0-W1.7-P0.95-LS2.8-BR)
+Add component (AddParameter): Name = "Add into BOM"; Value = "yes"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Channel ID"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Convert to PCB"; Value = "yes"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Datasheet"; Value = "https://www.ti.com/cn/lit/gpn/lp5907"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Device"; Value = "LP5907MFX-3.3/NOPB"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Dropout Voltage"; Value = "250mV@(250mA)"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Group ID"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "JLCPCB Part Class"; Value = "扩展库"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "LCSC Part Name"; Value = "输入5.5V 输出3.3V 250mA"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer"; Value = "TI(德州仪器)"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Manufacturer Part"; Value = "LP5907MFX-3.3/NOPB"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Maximum Input Voltage"; Value = "5.5V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Name"; Value = "LP5907MFX-3.3/NOPB"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Number of Outputs"; Value = "1"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Operating Temperature"; Value = "-40℃~+125℃"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Output Current"; Value = "250mA"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Output Polarity"; Value = "正"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Output Type"; Value = "固定"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Output Voltage"; Value = "3.3V"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Power Supply Rejection Ratio (PSRR)"; Value = "90dB"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Quiescent Current (Ground Current)"; Value = "25uA"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Reuse Block"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier"; Value = "LCSC"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Footprint"; Value = "SOT-23-5"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier Part"; Value = "C80670"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Symbol"; Value = "LP5907MFX-3.3/NOPB"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=3.3V Pin=U2-5
+Added Net: Name=3.3V
+Added Pin To Net: NetName=5V Pin=U2-1
+Added Pin To Net: NetName=5V Pin=U2-3
+Added Net: Name=5V
+Added Pin To Net: NetName=GND Pin=U2-2
+Added Net: Name=GND
+Add Class Member: Failed to add class member : Component C1 10uF (106) 10% 10V
+Add Class Member: Failed to add class member : Component C2 10uF (106) 10% 10V
+Add Class Member: Failed to add class member : Component C3 100nF (104) 10% 50V
+Added Member To Class: ClassName=as5311_tsb Member=Component U2 LP5907MFX-3.3/NOPB
