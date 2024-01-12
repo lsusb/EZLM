@@ -82,6 +82,23 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=WFXXBWUT
 
+[Document3]
+DocumentPath=AS5311_TSB.BomDoc
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=-1
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=1
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=
+
 [GeneratedDocument1]
 DocumentPath=Project Outputs for AS5311_TSB\Design Rule Check - as5311_tsb.html
 DItemRevisionGUID=

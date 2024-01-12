@@ -1,0 +1,12 @@
+Output: NC Drill Files
+Type  : NC Drill
+From  : Project [转接板.PrjPcb]
+   Generated File[转接板.TXT]
+   Generated File[转接板.LDP]
+   Generated File[转接板.DRR]
+
+
+Files Generated   : 3
+Documents Printed : 0
+
+Finished Output Generation At 下午 6:10:56 On 11/1/2024

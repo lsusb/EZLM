@@ -1,0 +1,11 @@
+Removed Pin From Net: NetName=MagDECn Pin=D2-A
+Removed Pin From Net: NetName=GND Pin=D2-K
+Added Component: Designator=D2(0603_LED_S1)
+Add component (AddParameter): Name = "ComponentLink1Description"; Value = "供应商链接"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "ComponentLink1URL"; Value = "http://www.szlcsc.com/product/details_2659.html"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Notepad"; Value = ""; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Package"; Value = "0603"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "Supplier"; Value = "LC"; VariantName = "[No Variations]"
+Add component (AddParameter): Name = "SuppliersPartNumber"; Value = "C2286"; VariantName = "[No Variations]"
+Added Pin To Net: NetName=MagDECn Pin=D2-A
+Added Pin To Net: NetName=GND Pin=D2-K
