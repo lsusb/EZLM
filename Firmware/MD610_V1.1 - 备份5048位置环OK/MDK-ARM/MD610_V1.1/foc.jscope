@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<JScopeProject>
+    <FileVersion major="1" minor="1" />
+    <Project>
+        <Configuration>
+            <JLink>
+                <Options Connection="1" IsRTTSession="0" IsRTTWithTimeStamp="1" SamplingPeriod="100" SerialNo="0" JTAG_IRPre="-1" JTAG_DRPre="-1" IP="" TargetDevice="STM32F405RG" TargetInterface="SWD" InterfaceSpeed="4000" />
+            </JLink>
+            <ElfFile Name="D:\ST_FOC5.4\MD610_V1.1 - 备份5048位置环OK\MDK-ARM\MD610_V1.1\MD610_V1_1.axf" />
+            <DataFile Name="C:\Users\Lhq\Desktop\noise.csv" />
+            <RawFile Name="C:\Users\Lhq\Desktop\noise.csv" />
+            <Scope>
+                <Options TimeResolutionUs="100000" />
+            </Scope>
+        </Configuration>
+        <Windows>
+            <Graph Show="1" />
+            <Watch Show="1" />
+        </Windows>
+        <SelectedSymbols>
+            <Symbol>
+                <Options Name="Ia" Address="0x20000B24" Type="long" TypeID="12" Size="4" GraphColorRed="255" GraphColorGreen="215" GraphColorBlue="0" YMinSampled="-458" YMaxSampled="486" YAvgSampled="0" Offset="4" ShowInGraph="0" ACCoupling="0" YOffset="400" IsAutoConfig="0" YResolution="100" MaxValue="2000000000" File="..\Src\mc_svpwm.c" Scope="0" DrawStyle="0" />
+            </Symbol>
+            <Symbol>
+                <Options Name="Ib" Address="0x20000B28" Type="long" TypeID="12" Size="4" GraphColorRed="0" GraphColorGreen="255" GraphColorBlue="0" YMinSampled="-423" YMaxSampled="551" YAvgSampled="2" Offset="8" ShowInGraph="0" ACCoupling="0" YOffset="400" IsAutoConfig="0" YResolution="100" MaxValue="2000000000" File="..\Src\mc_svpwm.c" Scope="0" DrawStyle="0" />
+            </Symbol>
+            <Symbol>
+                <Options Name="reg" Address="0x20000928" Type="ushort" TypeID="7" Size="2" GraphColorRed="102" GraphColorGreen="102" GraphColorBlue="178" YMinSampled="0" YMaxSampled="16383" YAvgSampled="14104" Offset="12" ShowInGraph="1" ACCoupling="0" YOffset="200" IsAutoConfig="0" YResolution="50" MaxValue="26700" File="..\StdApp\as5048.c" Scope="0" DrawStyle="0" />
+            </Symbol>
+        </SelectedSymbols>
+    </Project>
+</JScopeProject>

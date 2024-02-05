@@ -1,0 +1,6 @@
+#
+#Mon Feb 05 21:05:35 CST 2024
+selected.firmware_ver=1.24.1
+selected.cubemx=6.1.2
+selected.toolchain=Keil MDK-ARM V5
+selected.driver=HAL - Hardware Abstraction Layer
