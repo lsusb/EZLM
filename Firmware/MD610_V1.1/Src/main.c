@@ -108,8 +108,12 @@ int main(void)
   /* Initialize interrupts */
   MX_NVIC_Init();
   /* USER CODE BEGIN 2 */
+    
   HQ_Board_ALL_Init();
   
+  HAL_Delay(100);
+  MC_AcknowledgeFaultMotor1();
+  HAL_Delay(100);
   MC_StartMotor1();
 
   /* USER CODE END 2 */

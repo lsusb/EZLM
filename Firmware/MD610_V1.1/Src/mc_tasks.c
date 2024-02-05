@@ -706,7 +706,7 @@ __weak uint8_t TSK_HighFrequencyTask(void)
   /* USER CODE END HighFrequencyTask SINGLEDRIVE_1 */
   hFOCreturn = FOC_CurrControllerM1();
   /* USER CODE BEGIN HighFrequencyTask SINGLEDRIVE_2 */
-
+#endif
   /* USER CODE END HighFrequencyTask SINGLEDRIVE_2 */
   if(hFOCreturn == MC_FOC_DURATION)
   {
@@ -719,7 +719,7 @@ __weak uint8_t TSK_HighFrequencyTask(void)
     /* USER CODE END HighFrequencyTask SINGLEDRIVE_3 */
   }
   /* USER CODE BEGIN HighFrequencyTask 1 */
-#endif
+
 
   /* USER CODE END HighFrequencyTask 1 */
 

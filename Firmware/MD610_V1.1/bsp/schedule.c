@@ -5,14 +5,21 @@
 
 #include "parameters_conversion.h"
 #include "mc_tasks.h"
+#include "mc_config.h"
 #include "main.h"
 #include "hqfoc_app.h"
+#include "mc_api.h"
 
+extern STM_Handle_t STM[NBR_OF_MOTORS];
+
+uint8_t mc_state = 0;
+uint16_t mc_fault = 0;
 void HQ_Loop_1000Hz(void) // 1ms执行一次
 {
     float loop_time_1000hz = Get_Cycle_T(1); /*获取5ms准确时间*/
     UNUSED(loop_time_1000hz);
-
+	mc_state = STM_GetState(&STM[M1]);
+	mc_fault = MC_GetOccurredFaultsMotor1();
 }
 
 void HQ_Loop_500Hz(void) // 2ms执行一次
