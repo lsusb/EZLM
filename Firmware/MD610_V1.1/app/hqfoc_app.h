@@ -23,6 +23,8 @@ typedef enum
 void drv_init(void);
 uint8_t drv_fault_check(void);
 uint16_t HQ_FOC_CurrControllerM1(void);
+float get_Vbus_voltage(void);
+void set_pid(void);
 
 
 #ifdef __cplusplus

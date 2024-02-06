@@ -80,6 +80,8 @@ void Error_Handler(void);
 #define M1_BUS_VOLTAGE_GPIO_Port GPIOC
 #define M1_ENCODER_A_Pin GPIO_PIN_0
 #define M1_ENCODER_A_GPIO_Port GPIOA
+#define SPI1_NSS_Pin GPIO_PIN_4
+#define SPI1_NSS_GPIO_Port GPIOA
 #define M1_PWM_UL_Pin GPIO_PIN_13
 #define M1_PWM_UL_GPIO_Port GPIOB
 #define LED_GREEN_Pin GPIO_PIN_0

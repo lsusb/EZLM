@@ -107,6 +107,18 @@ typedef struct
 
 } _mt_foc;
 
+typedef struct tle5012_pack
+{
+	uint16_t posdata;
+	int16_t ElAngle;
+
+	int64_t overloop_pos;
+	int64_t overloop_pos_filter;
+
+	int16_t speed_ori;
+
+} tle5012_pack_t, *tle5012_pack_p;
+
 typedef struct as5311_pack
 {
 	_Bool even_par;
@@ -135,7 +147,7 @@ typedef struct
 	_mt_velcontrol vel;
 	_mt_info info;
 	_mt_foc foc;
-	_mt_magnetic_sensor tle5012;
+	tle5012_pack_t tle5012;
 	_mt_controller controller;
 	mt_parameter_t parameter;
 	as5311_pack_t as5311;

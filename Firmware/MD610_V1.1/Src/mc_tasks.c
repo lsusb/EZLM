@@ -498,7 +498,7 @@ __weak void TSK_MediumFrequencyTaskM1(void)
     FOC_CalcCurrRef( M1 );
 
     /* USER CODE BEGIN MediumFrequencyTask M1 3 */
-
+	MotorControl.info.motor_init = 1;
     /* USER CODE END MediumFrequencyTask M1 3 */
     break;
 

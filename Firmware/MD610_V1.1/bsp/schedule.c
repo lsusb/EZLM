@@ -20,6 +20,7 @@ void HQ_Loop_1000Hz(void) // 1ms执行一次
     UNUSED(loop_time_1000hz);
 	mc_state = STM_GetState(&STM[M1]);
 	mc_fault = MC_GetOccurredFaultsMotor1();
+	get_Vbus_voltage();
 }
 
 void HQ_Loop_500Hz(void) // 2ms执行一次

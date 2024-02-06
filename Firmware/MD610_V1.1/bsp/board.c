@@ -3,6 +3,7 @@
 #include "filter.h"
 #include "control.h"
 #include "hqfoc_app.h"
+#include "bsp_tle5012.h"
 
 #include "parameters_conversion.h"
 
@@ -36,5 +37,9 @@ void HQ_Board_ALL_Init(void)
 {
 	drv_init();
 	
+	Init_tle5012();
+	
+	set_pid();
+
     Init_OK = 1;
 }
